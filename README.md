@@ -1,51 +1,38 @@
 # Inventory Tracker
 
-The **Inventory Tracker** is a simple web-based application for managing product inventory. It allows users to add new products, view existing items, and track inventory details. This README provides an overview of the project, installation instructions, and usage guidelines.
+Inventory Tracker is a web-based inventory management system built with PHP and Oracle database.
 
-## Features
+## Key Features
 
-- **Add New Product**:
-  - Users can input product details (such as name, quantity, description, SKU, price, and supplier ID) via a form.
-  - The data is then inserted into the Oracle database.
+- View existing products
+- Add new products with details such as name, quantity, description, SKU, price, and supplier ID
+- Delete products from the inventory
 
-- **View Items**:
-  - Users can view a list of existing products in the inventory.
-  - The list displays essential information about each product.
+## Getting Started
 
-## Installation
+### Prerequisites
 
-1. **Prerequisites**:
-   - Ensure you have PHP and an Oracle database set up.
-   - Install the necessary PHP extensions (e.g., `oci8`) for Oracle connectivity.
+- XAMPP installed on your local machine
+- Oracle database configured and running
 
-2. **Clone the Repository**:
-   ```
+### Installation
+
+1. Clone the repository:
+
+   ```sh
    git clone https://github.com/ubaidwazir/inventory-tracker.git
-   cd inventory-tracker
-   ```
 
-3. **Database Configuration**:
-   - Update the database connection details in `add_item.php` and `view_items.php`.
 
-4. **Web Server Setup**:
-   - Configure your web server (e.g., Apache, Nginx) to serve PHP files.
-   - Set up virtual hosts or use the built-in PHP server for testing.
+2. Set up your local server environment using XAMPP.
+3. Configure your Oracle database connection in the PHP files.
 
-5. **Access the Application**:
-   - Open the application in your web browser.
-   - Use the provided buttons to add new products or view existing items.
 
-## Usage
 
-1. **Add New Product**:
-   - Click the "Add Item" button on the home page.
-   - Fill in the product details (name, quantity, description, etc.).
-   - Submit the form to add the product to the inventory.
+**Usage**
+1. Start your local server environment (e.g., using XAMPP).
+2. Access the project in your web browser.
+3. Use the application to view existing products, add new products, or delete products as needed.
 
-2. **View Items**:
-   - Click the "View Items" button on the home page.
-   - The list of products will be displayed, showing relevant information.
 
-## Contributing
-
-Contributions are welcome! Feel free to submit pull requests or report issues.
+**Contributing**
+Contributions are welcome! Please feel free to submit a pull request or open an issue if you find any bugs or have suggestions for improvements.
